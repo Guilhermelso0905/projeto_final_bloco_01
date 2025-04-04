@@ -9,7 +9,6 @@ public abstract class Produtos {
 	private BigDecimal precoBigDecimal;
 
 	public Produtos(int codigoproduto, String nomeString, String marcaString, BigDecimal precoBigDecimal) {
-		super();
 		this.codigoproduto = codigoproduto;
 		this.nomeString = nomeString;
 		this.marcaString = marcaString;
